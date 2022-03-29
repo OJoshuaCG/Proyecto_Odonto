@@ -1,0 +1,16 @@
+Imagenes
+https://unsplash.com/s/photos/dental-clinic
+
+Iconos
+https://www.flaticon.com/packs/dental-24
+
+Diseños de bootswatch
+https://bootswatch.com
+
+- Quartz
+https://bootswatch.com/quartz/
+Link: https://bootswatch.com/5/quartz/bootstrap.min.css
+
+- Journal
+https://bootswatch.com/journal/
+Link: https://bootswatch.com/5/journal/bootstrap.min.css
