@@ -1,6 +1,6 @@
 ## Proyecto - OdonTam
 
-De la base de datos **Odonto**, crear un login del usuario (admin), además de incorporar dentro de su homepage, permitir el CRUD de Pacientes y Medicos
+De la base de datos **Odonto**, crear un login del usuario (admin), e incorporar dentro de su homepage el CRUD de Pacientes y Medicos
 
 ### **Carpetas NO usadas**
 - Bootstrap-5.1.3-examples

@@ -26,7 +26,7 @@ Create Table Medico(
    Cedula  int,
    Nombres varchar(50),
    Apellidos varchar(50),
-   Telefono varchar(20)
+   Telefono varchar(20),
    Especialidad int
 )
 Create Table Disponibilidad(
@@ -48,7 +48,7 @@ Create Table Consulta(
     IdConsulta  int,
     idHorario   int,
     Diagnostico     varchar(250),
-    Costo    money
+    Costo    money,
     Observaciones varchar(250)
 )
 Create Table DetConsulta(
@@ -65,11 +65,10 @@ Create Table Ciudades(
 )
 Create Table Especialidades(
     IdEspecialidad  int IDENTITY (1, 1) NOT NULL,
-    Descripcion   varchar(150),
-    
+    Descripcion   varchar(150)    
 )
 
-Crete Table Tratamientos(
+Create Table Tratamientos(
     IdTratamiento  int IDENTITY (1, 1) NOT NULL,
     Tratamiento   varchar(150),
     Costo   money
