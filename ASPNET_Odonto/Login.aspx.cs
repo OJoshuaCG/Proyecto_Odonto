@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace ASPNET_Odonto
 {
@@ -13,5 +8,14 @@ namespace ASPNET_Odonto
         {
 
         }
+
+        protected void BtnLogin_Click (object sender, EventArgs e) {
+
+            string user = floatingInput.Text;
+            string pass = floatingPassword.Text;
+            Response.Redirect("home.html/");
+        }
+
+
     }
 }
