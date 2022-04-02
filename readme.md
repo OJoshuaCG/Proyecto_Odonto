@@ -24,7 +24,7 @@ De la base de datos **Odonto**, crear un login del usuario (admin), e incorporar
 **FrontEnd**
 
 - [X] Login (Usuario Admin)
-- [ ] Homepage
+- [X] Homepage
 - [ ] CRUD Paciente
 - [ ] CRUD Medico
 
