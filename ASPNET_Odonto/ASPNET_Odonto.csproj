@@ -108,11 +108,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="citas.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="medicos.aspx" />
+    <Content Include="pacientes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="citas.aspx.cs">
+      <DependentUpon>citas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="citas.aspx.designer.cs">
+      <DependentUpon>citas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,10 +137,32 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="medicos.aspx.cs">
+      <DependentUpon>medicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medicos.aspx.designer.cs">
+      <DependentUpon>medicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pacientes.aspx.cs">
+      <DependentUpon>pacientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pacientes.aspx.designer.cs">
+      <DependentUpon>pacientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sistema.Master.cs">
+      <DependentUpon>Sistema.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema.Master.designer.cs">
+      <DependentUpon>Sistema.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Sistema.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
